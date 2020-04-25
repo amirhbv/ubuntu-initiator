@@ -1,0 +1,13 @@
+[user]
+	name = AmirHossein Habibvand
+	email = ahhabibvand@gmail.com
+[http]
+	postBuffer = 1572864000
+[alias]
+	lg = log --oneline --abbrev-commit
+	lgr = log --oneline --abbrev-commit --reverse -20
+
+#[branch "master"]
+#	mergeoptions = --no-ff
+#[merge]
+#	ff = false
