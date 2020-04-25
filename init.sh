@@ -16,7 +16,7 @@ sudo apt install -y git
 sudp apt install curl
 sudo apt install -y gcc g++ make
 sudo apt install -y gnome-tweak-tool
-sudo apt install -y openconnect network-manager-openconnect network-manager-openconnect-gnome
+sudo apt install -y openconnect network-manager-openconnect network-manager-openconnect-gnome ocproxy
 sudo apt install -y htop
 
 # * Install snaps *
