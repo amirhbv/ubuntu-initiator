@@ -12,11 +12,11 @@ begin
                     --no-dtls \
                     -u $username \
                     --passwd-on-stdin"
-                
+
         if contains -- -p $argv
             set cmd "$cmd --script-tun --script 'ocproxy -D $proxy_port'"
         end
 
         eval $cmd
-    end 
+    end
 end
