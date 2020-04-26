@@ -18,6 +18,7 @@ sudo apt install -y gcc g++ make
 sudo apt install -y gnome-tweak-tool
 sudo apt install -y openconnect network-manager-openconnect network-manager-openconnect-gnome ocproxy
 sudo apt install -y htop
+sudo apt install -y libssl-dev libffi-dev libxml2-dev libjpeg-dev libxslt1-dev
 
 # * Install snaps *
 sudo snap install code --classic
