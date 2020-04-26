@@ -1,5 +1,5 @@
 begin
-    set default_dir ".venv"
+    set default_dir "venv"
 
     function _remove_venv
         if test -d $default_dir
@@ -31,7 +31,7 @@ begin
             end
 
             if contains -- --install $argv
-            	pip install -r ./requirements.txt
+                pip install -r ./requirements.txt
             end
         end
     end

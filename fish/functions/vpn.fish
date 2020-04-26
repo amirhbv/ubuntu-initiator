@@ -6,8 +6,7 @@ begin
     set proxy_port "11080"
 
     function vpn
-        set cmd "echo $password | sudo openconnect \
-                    $server \
+        set cmd "echo $password | sudo openconnect $server \
                     --servercert $servercert \
                     --no-dtls \
                     -u $username \
