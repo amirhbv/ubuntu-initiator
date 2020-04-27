@@ -15,11 +15,11 @@ cd
 sudo apt install -y git
 sudp apt install curl
 sudo apt install -y gcc g++ make
-sudo apt install -y gnome-tweak-tool
 sudo apt install -y openconnect network-manager-openconnect network-manager-openconnect-gnome ocproxy
 sudo apt install -y htop
 sudo apt install -y net-tools
 sudo apt install -y libssl-dev libffi-dev libxml2-dev libjpeg-dev libxslt1-dev
+sudo apt install -y gnome-tweak-tool chrome-gnome-shell gnome-shell-extensions
 
 # * Install snaps *
 sudo snap install code --classic
